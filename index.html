@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acerte o número</title>
+  <link rel="stylesheet" href="src/styles/style.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="src/imgs/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="src/imgs/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="src/imgs/favicon-16x16.png">
+  <link rel="manifest" href="src/imgs/site.webmanifest">
+</head>
+<body>
+  <header><h1>Consegue acertar o número?</h1></header>
+  <main>
+    <div class="box-a">
+      <label for="numrs">Palpite:</label>
+      <input type="number" id="numrs">
+      <button id="btn">Tentativa</button>
+      <button id="btnR">Reset</button>
+    </div>
+    <div class="box-b">
+      <p>Pense num valor <em>entre 1 e 100</em>...</p>
+      <div class="vida">
+        <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 48 48" width="24px" height="24px"><path fill="#4caf50" d="M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z"/><path fill="#fff" d="M21,14h6v20h-6V14z"/><path fill="#fff" d="M14,21h20v6H14V21z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 48 48" width="24px" height="24px"><path fill="#4caf50" d="M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z"/><path fill="#fff" d="M21,14h6v20h-6V14z"/><path fill="#fff" d="M14,21h20v6H14V21z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 48 48" width="24px" height="24px"><path fill="#4caf50" d="M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z"/><path fill="#fff" d="M21,14h6v20h-6V14z"/><path fill="#fff" d="M14,21h20v6H14V21z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 48 48" width="24px" height="24px"><path fill="#4caf50" d="M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z"/><path fill="#fff" d="M21,14h6v20h-6V14z"/><path fill="#fff" d="M14,21h20v6H14V21z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 48 48" width="24px" height="24px"><path fill="#4caf50" d="M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z"/><path fill="#fff" d="M21,14h6v20h-6V14z"/><path fill="#fff" d="M14,21h20v6H14V21z"/></svg>
+      </div>
+    </div>
+    <div class="result">
+      <p id="res"></p>
+    </div>
+  </main>
+  <script src="src/scripts/scripts.js"></script>
+</body>
+</html>
