@@ -143,3 +143,30 @@ footer p {
   font-size: 1.4rem;
   color: var(--text-color);
 }
+
+@media (max-width: 599px) {
+  header h1 {
+    font-size: 2.4rem;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  .box-a label {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .box-a input {
+    width: 9rem;
+  }
+
+  .box-b :first-child{
+    font-size: 1.4rem;
+  }
+
+  .box-b {
+    gap: 1rem;
+  }
+}
